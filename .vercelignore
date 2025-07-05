@@ -1,0 +1,14 @@
+node_modules
+.env
+.env.local
+.env.example
+.env.production
+.env.vercel
+.env.vercel.clean
+.env.vercel.essential
+*.log
+.DS_Store
+backend/
+DEPLOYMENT_GUIDE.md
+VERCEL_DEPLOYMENT.md
+README.md

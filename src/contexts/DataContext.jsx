@@ -68,30 +68,87 @@ export const DataProvider = ({ children }) => {
     projects: [
       {
         id: 1,
-        title: 'E-Commerce Platform',
-        description: 'Full-stack e-commerce solution with React frontend and Node.js backend',
-        technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS'],
-        github: 'https://github.com/SanketsMane/ecommerce-platform',
-        live: 'https://ecommerce-demo.vercel.app',
-        image: '/api/placeholder/400/300'
+        title: 'Portfolio Website',
+        description: 'Modern portfolio website built with React, Node.js, and MongoDB. Features admin dashboard, GitHub integration, and responsive design.',
+        technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS', 'Vercel'],
+        github: 'https://github.com/SanketsMane/Portfolio-Using-React',
+        live: 'https://portfolio-frontend-url.vercel.app',
+        image: '/api/placeholder/400/300',
+        stars: 5,
+        forks: 2,
+        language: 'JavaScript',
+        created_at: '2024-12-01T00:00:00Z',
+        updated_at: '2025-01-05T00:00:00Z'
       },
       {
         id: 2,
-        title: 'Task Management App',
-        description: 'Collaborative task management application with real-time updates',
-        technologies: ['React', 'Firebase', 'Material-UI'],
-        github: 'https://github.com/SanketsMane/task-manager',
-        live: 'https://task-manager-demo.netlify.app',
-        image: '/api/placeholder/400/300'
+        title: 'E-Commerce Platform',
+        description: 'Full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB database. Features include user authentication, product management, and payment integration.',
+        technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe', 'Tailwind CSS'],
+        github: 'https://github.com/SanketsMane/ecommerce-platform',
+        live: 'https://ecommerce-demo.vercel.app',
+        image: '/api/placeholder/400/300',
+        stars: 8,
+        forks: 3,
+        language: 'JavaScript',
+        created_at: '2024-10-15T00:00:00Z',
+        updated_at: '2024-11-20T00:00:00Z'
       },
       {
         id: 3,
+        title: 'Task Management App',
+        description: 'Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+        technologies: ['React', 'Firebase', 'Material-UI', 'Socket.io'],
+        github: 'https://github.com/SanketsMane/task-manager',
+        live: 'https://task-manager-demo.netlify.app',
+        image: '/api/placeholder/400/300',
+        stars: 12,
+        forks: 4,
+        language: 'JavaScript',
+        created_at: '2024-09-10T00:00:00Z',
+        updated_at: '2024-10-05T00:00:00Z'
+      },
+      {
+        id: 4,
         title: 'Weather Dashboard',
-        description: 'Beautiful weather dashboard with location-based forecasts',
-        technologies: ['React', 'OpenWeather API', 'Chart.js'],
+        description: 'Beautiful weather dashboard with location-based forecasts, interactive charts, and multiple weather data sources.',
+        technologies: ['React', 'OpenWeather API', 'Chart.js', 'Geolocation'],
         github: 'https://github.com/SanketsMane/weather-dashboard',
         live: 'https://weather-dashboard-demo.vercel.app',
-        image: '/api/placeholder/400/300'
+        image: '/api/placeholder/400/300',
+        stars: 6,
+        forks: 2,
+        language: 'JavaScript',
+        created_at: '2024-08-20T00:00:00Z',
+        updated_at: '2024-09-15T00:00:00Z'
+      },
+      {
+        id: 5,
+        title: 'Social Media Dashboard',
+        description: 'Comprehensive social media analytics dashboard with real-time metrics, engagement tracking, and content scheduling.',
+        technologies: ['React', 'Node.js', 'PostgreSQL', 'Redis', 'Chart.js'],
+        github: 'https://github.com/SanketsMane/social-media-dashboard',
+        live: 'https://social-dashboard-demo.vercel.app',
+        image: '/api/placeholder/400/300',
+        stars: 15,
+        forks: 7,
+        language: 'TypeScript',
+        created_at: '2024-07-05T00:00:00Z',
+        updated_at: '2024-08-10T00:00:00Z'
+      },
+      {
+        id: 6,
+        title: 'Chat Application',
+        description: 'Real-time chat application with private messaging, group chats, file sharing, and emoji reactions.',
+        technologies: ['React', 'Node.js', 'Socket.io', 'MongoDB', 'Cloudinary'],
+        github: 'https://github.com/SanketsMane/chat-app',
+        live: 'https://chat-app-demo.netlify.app',
+        image: '/api/placeholder/400/300',
+        stars: 9,
+        forks: 3,
+        language: 'JavaScript',
+        created_at: '2024-06-15T00:00:00Z',
+        updated_at: '2024-07-20T00:00:00Z'
       }
     ]
   });
